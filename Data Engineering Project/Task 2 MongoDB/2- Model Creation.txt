@@ -1,0 +1,29 @@
+Model Creation:
+To structure the data for training a predictive model to forecast future orders based on historical data,
+we need to identify the features (given variables) and the target variable (predicitve variables).
+
+Exisitng Features - To be used columns
+1- order_id
+2- customer_id
+3- shipment_date
+4- product_id
+5- order_date
+6- quantity
+7- unit_price
+
+Target Variables - Predictive Columns
+The target can be related to future orders which may include:
+1- Total quantity of products ordered in the next month.
+2- Total revenue generated from orders in the next month.
+3- Total number of orders placed in the next month.
+
+Data Preprocessing
+1-Some other columns can also be integrated into the data such as product category which
+categorizes the data into some categories beacuse it will help us in predicting what kind of
+product has been sold in the future i.e. creating additional features
+2- Converting categorical variables into numeric representations using encoding techniques.
+
+Model Training
+1- Split the dataset into training and testing sets to evaluate the model's performance.
+2- We can employ different machine learning techniques in order to train the data using
+linear regression, decision trees and random forest etc.

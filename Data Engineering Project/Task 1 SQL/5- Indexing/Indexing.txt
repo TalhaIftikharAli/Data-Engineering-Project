@@ -1,0 +1,21 @@
+Importance of Indexing:
+Indexing in a database is crucial for improving query performance by enabling faster data retrieval.
+Some benefits of Indexing are as follows:
+1- Improved Query Performance
+2- Faster Grouping and Sorting
+3- Faster Joins
+
+Indexing customer_orders dataset columns:
+In the customer_orders dataset,
+some columns that can be used for indexing
+because the columns might occur the most in the queries by the analysts.
+
+These columns can be
+1- order_id
+2- customer_id
+3- shipment_date
+4- product_id
+5- order_date
+
+By indexing these columns, the database can efficiently search and retrieve the relevant data,
+resulting in faster query execution.

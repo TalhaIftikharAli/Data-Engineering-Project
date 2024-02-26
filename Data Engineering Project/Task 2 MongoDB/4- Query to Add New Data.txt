@@ -1,0 +1,14 @@
+Query to Add New Data:
+The data is taken from row 4 of the dataset
+
+db.order_data.insertOne({
+    order_id: 1206,
+    customer_id: "1GQD01",
+    customer_name: "G.Q. DEFENCE - MANUFACTURING",
+    shipment_date: new Date("2014-06-26"),
+    product_id: "SF-001",
+    order_date: new Date("2014-05-27"),
+    product_description: "SF-001",
+    quantity: 100,
+    unit_price: 300
+});
